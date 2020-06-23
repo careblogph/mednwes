@@ -1,0 +1,1437 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden], template {
+    display: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+dfn {
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+mark {
+    background: #ffff00;
+    color: #000000;
+}
+
+small {
+    font-size: 80%;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -.5em;
+}
+
+sub {
+    bottom: -.25em;
+}
+
+img {
+    border: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 1em 40px;
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+}
+
+pre {
+    overflow: auto;
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+button {
+    overflow: visible;
+}
+
+button, select {
+    text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+}
+
+optgroup {
+    font-weight: 700;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td, th {
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrap-main {
+    max-width: 1400px;
+    min-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+    height: 728px;
+    background: url("bg.png") /*tpa=http://i.intoxic.org../img/bg.png*/ no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 35px;
+}
+
+.wrap-zag-head {
+    background: rgba(255, 255, 255, 0.36);
+    color: #3d4e68;
+    text-transform: uppercase;
+    text-align: right;
+    width: 675px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrap-zag-head .zag-small {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.wrap-zag-head .zag-big {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.wrap-zag-head:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 440px;
+    background: #4a8768;
+    top: 5px;
+    position: relative;
+}
+
+.wrap-zag-head:before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 440px;
+    background: #4a8768;
+    top: -5px;
+    right: 9px;
+    position: absolute;
+}
+
+.wrap-list {
+    padding-top: 28px;
+}
+
+.item-list {
+    text-align: right;
+    float: right;
+    padding-bottom: 150px;
+    padding-right: 0;
+    width: 435px;
+    position: relative;
+    right: 87px;
+}
+
+.item-list ul {
+    list-style-type: none;
+    font-size: 24px;
+    color: #242424;
+    margin-bottom: 32px;
+}
+
+.item-list li {
+    margin-bottom: 20px;
+    position: relative;
+    margin-right: 62px;
+    text-shadow: 0px 0px 2px white;
+}
+
+.item-list li:after {
+    content: url("li-head.png") /*tpa=http://i.intoxic.org../img/li-head.png*/;
+    display: inline-block;
+    height: 45px;
+    width: 35px;
+    margin-left: 25px;
+    position: absolute;
+    top: -10px;
+}
+
+.item-list .sale-head {
+    font-size: 21px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: url("line-sale.png") /*tpa=http://i.intoxic.org../img/line-sale.png*/;
+    background-repeat: repeat-y;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 25px;
+    width: 315px;
+    float: right;
+}
+
+.item-list .wrap-sum {
+    float: right;
+    margin-top: 38px;
+    margin-right: 116px;
+}
+
+.item-list .wrap-sum .big-sum {
+    color: #b42112;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 0 30px;
+    font-weight: bold;
+}
+
+.item-list .wrap-sum .small-sum {
+    color: #393939;
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+.red {
+    color: #b42112;
+}
+
+.zag-list {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #4a5759;
+    text-shadow: 0px 0px 2px white;
+}
+
+.wrap-head-content {
+    width: 780px;
+}
+
+.item-img {
+    float: left;
+}
+
+.btn-down {
+    width: 100%;
+    background-size: contain;
+    background-position: 0px 22px;
+    font-size: 42px;
+}
+
+.btn-header {
+    width: 381px;
+    height: 140px;
+    background: url("btn-header.png") no-repeat;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 50px;
+    color: #a81809;
+    line-height: 124px;
+    text-shadow: 1px 1px 1px #000000;
+    transition: 0.5s;
+    border: none;
+}
+
+.btn-down {
+    width: 100%;
+    background-size: contain;
+    background-position: 0px 22px;
+    font-size: 42px;
+}
+
+.btn-header:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.wrap-btn-header {
+    background: red;
+    position: relative;
+    left: 155px;
+}
+
+.wrap-btn-header .btn-header {
+    position: absolute;
+    left: 120px;
+    bottom: -165px;
+}
+
+.zag-main {
+    color: #40775b;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.zag-main .small {
+    font-size: 24px;
+}
+
+.zag-main-fon {
+    background: linear-gradient(to right, #b4cec0, #ffffff);
+    padding: 4px 0 4px 15px;
+    border-left: 1px solid #4a8768;
+}
+
+.first-block p {
+    font-size: 18px;
+    color: #2c2c2c;
+    text-indent: 35px;
+}
+
+.first-block .wrap-figure {
+    margin-top: -40px;
+}
+
+.first-block b {
+    font-size: 24px;
+    color: #40765b;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.first-block b.small {
+    font-size: 18px;
+}
+
+.first-block .f-wrap-text-contetnt {
+    width: 540px;
+    float: left;
+}
+
+.first-block .f-wrap-img-contetnt {
+    float: right;
+}
+
+.first-block figure {
+    float: left;
+    width: 218px;
+    padding: 0;
+    margin: 0;
+    margin-right: 42px;
+}
+
+.first-block figure:last-child {
+    margin-right: 0;
+}
+
+.first-block figcaption {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+}
+
+.second-block {
+    height: 805px;
+    background: url("bg-second-block.png") /*tpa=http://i.intoxic.org../img/bg-second-block.png*/ no-repeat;
+    background-position: center;
+    margin-top: -40px;
+}
+
+.second-block .zag-main {
+    line-height: 30px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: linear-gradient(to right, #bcdccc, transparent);
+    background: -moz-linear-gradient(to right, #bcdccc, transparent);
+    background: -webkit-linear-gradient(to right, #bcdccc, transparent);
+    background: -o-linear-gradient(to right, #bcdccc, transparent);
+    background: -ms-linear-gradient(to right, #bcdccc, transparent);
+    border-left: 1px solid #ffffff;
+    position: relative;
+    top: 95px;
+}
+
+.second-block .wrap-figure {
+    padding: 100px 35px 0;
+}
+
+.second-block .wrap-figure figure {
+    text-align: center;
+    width: 232px;
+    float: left;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.second-block .wrap-figure .zag {
+    text-transform: uppercase;
+    color: #153324;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.second-block .wrap-figure .descr {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.second-block .red-info {
+    background: #8f1a30;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 11px;
+    border-radius: 60px;
+    padding-right: 100px;
+    padding-left: 160px;
+    position: relative;
+}
+
+.second-block .img-pos-ab {
+    position: absolute;
+    left: -19px;
+    top: -24px;
+}
+
+.second-block .wrap-red-info {
+    padding: 10px 22px 0;
+}
+
+.third-block .zag {
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-right: 80px;
+}
+
+.third-block .small-zag {
+    text-transform: none;
+    color: #2b2b2b;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.third-block .img-table, .third-block .wrap-table-one, .third-block .wrap-two-table {
+    float: left;
+}
+
+.third-block .img-table {
+    text-align: center;
+    padding-left: 17px;
+    padding-right: 3px;
+}
+
+.third-block .wrap-table-one {
+    padding: 0 62px;
+}
+
+.third-block .tab {
+    width: 252px;
+}
+
+.third-block .tab .zag-tab {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #234b37;
+}
+
+.third-block .tab p {
+    font-size: 16px;
+    color: #2e2e2e;
+    padding: 0;
+    margin: 5px 0;
+}
+
+.third-block .tab1 {
+    background: url("") /*tpa=http://i.intoxic.org../img/tab1.png*/ no-repeat;
+    padding: 142px 20px 55px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.third-block .tab2 {
+    background: url("") /*tpa=http://i.intoxic.org../img/tab2.png*/ no-repeat;
+    padding: 17px 20px 155px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.third-block .tab3 {
+    background: url("") /*tpa=http://i.intoxic.org../img/tab3.png*/ no-repeat;
+    padding: 146px 20px 45px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.third-block .tab4 {
+    background: url("") /*tpa=http://i.intoxic.org../img/tab4.png*/ no-repeat;
+    padding: 10px 10px 105px 45px;
+    box-sizing: border-box;
+    text-align: left;
+    width: 272px;
+    position: relative;
+    left: -25px;
+}
+
+.fourth-block {
+    height: 515px;
+    background: url("bg4.png") /*tpa=http://i.intoxic.org../img/bg4.png*/ no-repeat;
+    background-position: center;
+    position: relative;
+    top: -98px;
+}
+
+.fourth-block h2 {
+    color: #234b37;
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 732px;
+    border-left: 1px solid #ffffff;
+    padding-left: 5px;
+    background: linear-gradient(to right, #bcdccc, transparent);
+    background: -moz-linear-gradient(to right, #bcdccc, transparent);
+    background: -webkit-linear-gradient(to right, #bcdccc, transparent);
+    background: -o-linear-gradient(to right, #bcdccc, transparent);
+    background: -ms-linear-gradient(to right, #bcdccc, transparent);
+    position: relative;
+    top: 80px;
+}
+
+.fourth-block figcaption {
+    color: #ffffff;
+    font-size: 15px;
+    padding: 0 20px;
+}
+
+.fourth-block figure {
+    width: 250px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.fourth-block .wrap-figure {
+    padding-top: 80px;
+}
+
+.fifth-block {
+    position: relative;
+    top: -90px;
+}
+
+.fifth-block .wrap-img {
+    width: 290px;
+    text-align: center;
+    float: left;
+    margin-top: -45px;
+}
+
+.fifth-block .wrap-uni-block {
+    float: left;
+    width: 330px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.fifth-block .wrap-timer-block {
+    float: left;
+    width: 380px;
+}
+
+.fifth-block .text-one {
+    color: #1d5237;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 27px;
+}
+
+.fifth-block .old-price {
+    color: #3a3d40;
+    font-size: 30px;
+    text-decoration: line-through;
+    margin-top: 20px;
+}
+
+.fifth-block .new-price {
+    font-size: 38px;
+    color: #3d4e68;
+    background: url("str.png") /*tpa=http://i.intoxic.org../img/str.png*/ no-repeat;
+    background-position: bottom right;
+    padding-bottom: 80px;
+    margin-top: -15px;
+    font-weight: bold;
+}
+
+.six-block {
+    background: url("bg6.png") /*tpa=http://i.intoxic.org../img/bg6.png*/ no-repeat;
+    background-position: center;
+    height: 767px;
+    position: relative;
+    top: -150px;
+}
+
+.six-block .zag {
+    color: #236651;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+}
+
+.six-block .wrap-list {
+    width: 720px;
+}
+
+.six-block ul {
+    list-style-type: none;
+    color: #313131;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    margin-left: 78px;
+    margin-top: 220px;
+}
+
+.six-block li {
+    float: left;
+    display: block;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.six-block li:before {
+    content: url("heart-li.png") /*tpa=http://i.intoxic.org../img/heart-li.png*/;
+    display: block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}
+
+.seven-block {
+    position: relative;
+    top: -210px;
+}
+
+.seven-block .wrap-content {
+    padding-top: 10px;
+}
+
+.seven-block h2 {
+    text-transform: uppercase;
+    color: #236651;
+    font-size: 30px;
+    width: 760px;
+    background: linear-gradient(to right, #dae1dd, transparent);
+    background: -moz-linear-gradient(to right, #dae1dd, transparent);
+    background: -webkit-linear-gradient(to right, #dae1dd, transparent);
+    background: -o-linear-gradient(to right, #dae1dd, transparent);
+    background: -ms-linear-gradient(to right, #dae1dd, transparent);
+    padding-left: 10px;
+    border-left: 1px solid #236651;
+}
+
+.seven-block .img {
+    float: left;
+}
+
+.seven-block .spisok-item-zag {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #61b78a;
+    font-weight: 700;
+}
+
+.seven-block .content {
+    color: #272727;
+    font-size: 18px;
+}
+
+.seven-block .itemone {
+    position: relative;
+    left: -50px;
+    top: 40px;
+}
+
+.seven-block .itemtwo {
+    position: relative;
+    left: -5px;
+    top: 50px;
+}
+
+.seven-block .itemthree {
+    position: relative;
+    left: 20px;
+    top: 70px;
+}
+
+.seven-block .itemfour {
+    position: relative;
+    left: 15px;
+    top: 80px;
+}
+
+.seven-block .itemfive {
+    position: relative;
+    left: -15px;
+    top: 100px;
+}
+
+.eth-block {
+    background: url("bg8.png") /*tpa=http://i.intoxic.org../img/bg8.png*/ no-repeat;
+    height: 710px;
+    background-position: center;
+    position: relative;
+    top: -360px;
+}
+
+.eth-block h2 {
+    color: #205e79;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 150px;
+    left: -70px;
+}
+
+.eth-block .wrap-text {
+    padding-left: 45px;
+    width: 575px;
+    text-align: justify;
+    padding-top: 170px;
+}
+
+.eth-block .wrap-text b {
+    color: #1e485d;
+    text-transform: uppercase;
+}
+
+.eth-block .wrap-text p {
+    color: #363636;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+    line-height: 20px;
+}
+
+.eth-block .wrap-text .men-med {
+    font-size: 18px;
+    color: #3a3a3a;
+    margin-top: 10px;
+}
+
+.eth-block .wrap-text .men-med b {
+    color: #3a3a3a;
+    font-size: 14px;
+    display: block;
+    margin-bottom: -5px;
+}
+
+.otz-block {
+    position: relative;
+    top: -350px;
+}
+
+.otz-block h2 {
+    text-transform: uppercase;
+    color: #266045;
+    font-size: 36px;
+    text-align: center;
+}
+
+.otz-block .otz-item {
+    border: 1px dashed #7abba1;
+    padding: 15px;
+    margin-bottom: 42px;
+    position: relative;
+}
+
+.otz-block .otz-item-foto-left {
+    text-align: left;
+    padding-left: 255px;
+}
+
+.otz-block .otz-item-foto-left .name-people-otz {
+    text-align: right;
+}
+
+.otz-block .otz-item-foto-left .img-otz {
+    left: -70px;
+    top: -20px;
+}
+
+.otz-block .otz-item-foto-right {
+    text-align: right;
+    padding-right: 255px;
+}
+
+.otz-block .otz-item-foto-right.last {
+  padding-right: 20px;
+}
+
+.otz-block .otz-item-foto-right .name-people-otz {
+    text-align: left;
+}
+
+.otz-block .otz-item-foto-right .img-otz {
+    right: -70px;
+    top: -20px;
+}
+
+.otz-block .otz-text {
+    color: #266045;
+    font-size: 22px;
+    font-style: italic;
+}
+
+.otz-block .name-people-otz {
+    font-size: 24px;
+    color: #304448;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.otz-block .img-otz {
+    position: absolute;
+}
+
+.otz-block .nopublication {
+    color: #304448;
+    font-size: 19px;
+    font-style: normal;
+    position: absolute;
+    right: 255px;
+    bottom: 18px;
+}
+
+.how-buy {
+    background: url("bg9.png") /*tpa=http://i.intoxic.org../img/bg9.png*/ no-repeat;
+    background-position: top center;
+    height: 414px;
+    position: relative;
+    top: -350px;
+    margin-bottom: 300px;
+}
+
+.how-buy .wrap-figure {
+    padding-top: 70px;
+}
+
+.how-buy h2 {
+    color: #3b6353;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 60px;
+}
+
+.how-buy figure {
+    text-align: center;
+    width: 210px;
+    float: left;
+    margin: 0;
+    margin-right: 50px;
+    position: relative;
+}
+
+.how-buy figure:last-child {
+    margin-right: 0;
+}
+
+.how-buy figcaption {
+    color: #21202e;
+    font-size: 18px;
+    padding-top: 25px;
+}
+
+.how-buy .fig-bottom {
+    position: relative;
+    top: 60px;
+}
+
+.how-buy .fig-bottom:after {
+    content: url("str-bottom.png") /*tpa=http://i.intoxic.org../img/str-bottom.png*/;
+    display: inline-block;
+    position: absolute;
+    right: -60px;
+    top: 20px;
+}
+
+.how-buy .fig-bottom:last-child:after {
+    display: none;
+}
+
+.how-buy .fig-top:after {
+    content: url("str-top.png") /*tpa=http://i.intoxic.org../img/str-top.png*/;
+    display: inline-block;
+    position: absolute;
+    right: -70px;
+    top: 50px;
+}
+
+.wrap-bootom-form {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -320px;
+}
+
+.bottom-form {
+    background: url("bottom-form.png") /*tpa=http://i.intoxic.org../img/bottom-form.png*/ no-repeat;
+    background-position: center;
+    height: 674px;
+    position: relative;
+    bottom: 0;
+    top: -320px;
+}
+
+.bottom-form .wrap-timer:after {
+    position: relative;
+    display: block;
+    content: url("str.png");
+    right: -20px;
+    text-align: right;
+    top: -20px;
+}
+
+.bottom-form h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #3d4e68;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+    background: rgba(255, 255, 255, 0.57);
+}
+
+.bottom-form .line-zag {
+    position: relative;
+}
+
+.bottom-form .line-zag:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    width: 280px;
+    background: #3d4e68;
+    margin-left: 27px;
+    top: 27px;
+}
+
+.bottom-form .line-zag:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 1px;
+    width: 280px;
+    background: #3d4e68;
+    margin-right: 7px;
+    top: 27px;
+    left: 132px;
+}
+
+.bottom-form .wrap-timer {
+    position: relative;
+    top: -10px;
+}
+
+.bottom-form .wrapper-content-footer {
+    padding-top: 30px;
+}
+
+.bottom-form .wrapper-content-footer .img-footer {
+    float: left;
+    width: 272px;
+    margin-top: 31px;
+}
+
+.bottom-form .wrapper-content-footer .content-footer {
+    width: 330px;
+    float: left;
+    text-align: center;
+    margin-left: 38px;
+}
+
+.bottom-form .wrapper-content-footer .green-predl {
+    font-size: 24px;
+    color: #1d5237;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.bottom-form .wrapper-content-footer .old-price {
+    color: #3a3d40;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.bottom-form .wrapper-content-footer .new-price {
+    color: #3d4e68;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form {
+    float: right;
+    width: 318px;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form {
+    background: rgba(255, 255, 255, 0.3);
+    width: 295px;
+    padding: 52px 0 0;
+    border-radius: 10px;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form select {
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    height: 55px;
+    margin-bottom: 13px;
+    font-size: 18px;
+    text-indent: 7px;
+    border: 1px solid #3d4e68;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none !important;
+    background: #ffffff url("custom-sel.png") no-repeat 95%;
+    padding-left: 20px;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form input {
+    display: block;
+    width: 270px;
+    margin: 0 auto;
+    height: 55px;
+    margin-bottom: 13px;
+    font-size: 18px;
+    text-indent: 21px;
+    border: 1px solid #3d4e68;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form::-webkit-input-placeholder {
+    color: #394a54;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form:-moz-placeholder {
+    color: #394a54;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form::-moz-placeholder {
+    color: #394a54;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form form:-ms-input-placeholder {
+    color: #394a54;
+}
+
+.btn-down {
+    width: 100% !important;
+    background-size: contain !important;
+    background-position: 0px 22px !important;
+    font-size: 42px !important;
+    left: 0 !important;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form .btn {
+    width: 381px;
+    height: 140px;
+    background: url("btn-header.png") no-repeat;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 60px;
+    color: #a81809;
+    line-height: 135px;
+    text-shadow: inset #000000 1px 1px 1px;
+    border: none;
+    position: relative;
+    left: -40px;
+    top: 20px;
+    transition: 0.5s;
+}
+
+.bottom-form .wrapper-content-footer .wrap-form .btn:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.result {
+    font-size: 29px;
+    color: #1d5237;
+    font-weight: 700;
+}
+
+.result span {
+    border: 1px solid #1d5237;
+    border-radius: 50px;
+    padding: 17px;
+}
+
+.result .result-hour, .result .result-minute {
+    margin-right: 5px;
+}
+
+.titles {
+    color: #1d5237;
+    font-size: 18px;
+    top: -10px;
+    position: relative;
+}
+
+.titles span {
+    width: 85px;
+    display: inline-block;
+}
+
+.zag-timer {
+    color: #1d5237;
+    font-size: 24px;
+    position: relative;
+    top: 0px;
+}
+
+.wrap-timer-new {
+    text-align: center;
+}
+
+.minus {
+    height: 100px;
+    position: relative;
+    background: red;
+    top: -420px;
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    padding: 20px 0;
+    color: #6c6e6f;
+}
+
+.copyright p {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright br {
+}
+
+.copyright img {
+    margin: 10px auto !important;
+}
+
+.copyright a {
+    color: #6c6e6f;
+    text-decoration: none;
+}
+
+.copyright a:hover {
+    color: #ff0069;
+    text-decoration: none;
+}
+
+.errField {
+    display: none;
+    font-size: 11px;
+    background: #ff0000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 248px;
+    margin: 0 auto;
+}
+
+.seven-block .img {
+    position: relative;
+}
+
+.img .natural {
+    display: block;
+    position: absolute;
+    top: 29px;
+    right: 148px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.img .natural p {
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.first-block .f-wrap-img-contetnt .inscr {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #40775b;
+}
+
+.first-block .f-wrap-img-contetnt {
+    position: relative;
+}
+
+.block4 {
+    /*float: left;*/
+    width: 96%;
+    height: 550px;
+    background: url("block4-bg.jpg") /*tpa=http://i.intoxic.org../img/block4-bg.jpg*/ no-repeat top center;
+}
+
+.block4 .block-img {
+    float: left;
+    width: 100%;
+}
+
+.block4 .block-img .name {
+    font-weight: bold;
+    font-family: 'PT Sans';
+    text-transform: uppercase;
+    font-size: 24px;
+    float: left;
+    color: #ffffff;
+    width: 100%;
+}
+
+.block4 .block-img .text {
+    color: #19949c;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    float: left;
+    line-height: 21px;
+    width: 100%;
+    text-align: center;
+}
+
+.block4 .block-img .left {
+    float: left;
+    width: 515px;
+    padding-left: 41px;
+}
+
+.block4 .block-img .right {
+    float: left;
+    width: 500px;
+}
+
+.block4 .name1 {
+    margin-top: 117px;
+    margin-left: 90px;
+}
+
+.block4 .text1 {
+    margin-top: 15px;
+    margin-left: 110px;
+    width: 265px !important;
+}
+
+.block4 .name2 {
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.block4 .text2 {
+    margin-top: 15px;
+    margin-left: 98px;
+    width: 265px !important;
+}
+
+.block4 .name3 {
+    margin-top: 117px;
+    margin-left: 118px;
+}
+
+.block4 .text3 {
+    margin-top: 13px;
+    margin-left: 118px;
+    width: 218px !important;
+}
+
+.block4 .name4 {
+    margin-top: 48px;
+    margin-left: 93px;
+    font-size: 19px !important;
+    width: 291px !important;
+    line-height: 100%;
+}
+
+.block4 .text4 {
+    margin-top: 20px;
+    margin-left: 147px;
+    width: 224px !important;
+}
+
+.third-block.block .wrapper {
+    width: 1100px;
+}
+
